@@ -10,7 +10,7 @@
 .hero-bg{
     background-color: #F6F6F6;
     height: 100vh;
-    padding: 40px 100px;
+    padding: 40px 120px;
 }
 
 header{
@@ -109,7 +109,7 @@ header button{
     gap: 20px;
 }
 .vr{
-    height: 100px;
+    height: 80px;
     width: 2px;
     background: #DD8A0D;
 }
@@ -154,7 +154,7 @@ header button{
     display: flex;
     flex-direction: column;
     gap: 120px;
-    margin: 60px 100px;
+    margin: 60px 120px;
     /* width: 1217px; */
 }
 
@@ -281,7 +281,7 @@ header button{
 .career-container{
     display: flex;
     margin-top: 60px ;
-    padding: 75px 100px;
+    padding: 75px 120px;
     gap:74px;
 height:569px;
 background: #F6F6F6;
@@ -392,8 +392,8 @@ align-self: self-start;
 .how-container{
     display: flex;
     flex-direction: row;
-margin-top: 200px;
-    padding: 60px 100px;
+margin-top: 250px;
+    padding: 60px 120px;
     gap: 61px;
 }
 
@@ -506,7 +506,7 @@ margin-top: 200px;
 
 
 .test-container{
-    padding: 40px 100px;
+    padding: 40px 120px;
     margin-top: 60px;
     display: flex;
     flex-direction: column;
@@ -595,7 +595,7 @@ margin-top: 200px;
 }
 
 .life-container{
-    padding: 120px  100px 0px 100px;
+    padding: 120px  120px 0px 120px;
     margin-top: 60px;
     display: flex;
     flex-direction: row;
@@ -682,7 +682,7 @@ margin-top: 200px;
 
 
 .part-container{
-    padding: 40px 100px;
+    padding: 40px 120px;
 
     display: flex;
     flex-direction: row;
@@ -694,8 +694,8 @@ margin-top: 200px;
 
 
 footer{
-    padding: 107px 100px;
-    margin-top: 100px;
+    padding: 107px 140px;
+    margin-top: 120px;
     display: flex;
     flex-direction: row;
     background: #000000;
@@ -710,6 +710,7 @@ footer{
     width: 358px;
     gap: 60px;
 }
+
 .logo img{
     width: 212px;
 }
