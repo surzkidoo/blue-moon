@@ -32,7 +32,6 @@ header ul{
     flex-direction: column;
     gap: 28px;
     position: fixed;
-  
     top: 0;
     left: -100%;
     bottom: 0;
@@ -43,7 +42,7 @@ header ul{
     align-items: center;
     z-index: 10;
     transition: all 400ms ease-in-out;
-        
+
 }
 
 
@@ -89,7 +88,7 @@ header button{
 .hero-container{
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 50px;
     justify-content: space-between;
     gap: 40px;
 }
