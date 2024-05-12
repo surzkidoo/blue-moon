@@ -989,6 +989,10 @@ footer{
     .open{
         display: none;
     }
+
+    .career-pagi{
+        display: none;
+    }
     
     .hero-bg{
         background-color: #F6F6F6;
@@ -1106,6 +1110,7 @@ footer{
         flex-direction: column;
         gap: 28px;
         font-family: inter;
+    
     }
     
     .app-container p{
@@ -1119,6 +1124,7 @@ footer{
         display: flex;
         flex-direction: row;
         gap: 16px;
+        justify-content: flex-start;
     }
     
     .app-container .btn-container img{
