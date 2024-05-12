@@ -472,4 +472,67 @@
     })
   })
 </script>
+
+<script>
+
+var latestList = document.querySelector('.career-list');
+
+latestList.addEventListener('scroll',()=>{
+   var child =  document.querySelectorAll('.career-pagi div')
+    var per =  latestList.scrollLeft/latestList.clientWidth*100
+
+    if(per<40){
+        child[0].classList.add('active')
+        child[1].classList.remove('active')
+        child[2].classList.remove('active')
+     }
+
+    if(per>50){
+       child[1].classList.add('active')
+       child[0].classList.remove('active')
+       child[2].classList.remove('active')
+    }
+
+     if(per>130){
+            child[2].classList.add('active')
+            child[0].classList.remove('active')
+            child[1].classList.remove('active')
+         
+    }
+
+  
+
+})
+
+var latestList = document.querySelector('.test-list');
+
+latestList.addEventListener('scroll',()=>{
+   var child =  document.querySelectorAll('.career-pagi div')
+    var per =  latestList.scrollLeft/latestList.clientWidth*100
+
+    if(per<40){
+        child[3].classList.add('active')
+        child[4].classList.remove('active')
+        child[5].classList.remove('active')
+     }
+
+    if(per>50){
+       child[4].classList.add('active')
+       child[3].classList.remove('active')
+       child[5].classList.remove('active')
+    }
+
+     if(per>130){
+            child[5].classList.add('active')
+            child[3].classList.remove('active')
+            child[4].classList.remove('active')
+         
+    }
+
+  
+
+})
+
+
+</script>
 </html>

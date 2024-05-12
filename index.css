@@ -400,11 +400,12 @@ align-self: center;
 .career-list{
     display: flex;
     flex-direction: row;
-    gap: 0px;
+    gap: 16px;
     justify-content: start;
     padding-left: 0px;
     align-items: center;
    overflow-x: scroll;
+   scroll-behavior: smooth;
     
 }
 
@@ -620,7 +621,7 @@ margin-top: 0px;
     width: 100%;
     overflow-x: scroll;
     padding: 10px;
-
+    scroll-behavior: smooth;
 }
 
 
