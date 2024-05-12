@@ -696,7 +696,7 @@ margin-top: 285px;
 
 footer{
     padding: 107px 140px;
-    margin-top: 120px;
+    margin-top: 0px;
     display: flex;
     flex-direction: row;
     background: #000000;
