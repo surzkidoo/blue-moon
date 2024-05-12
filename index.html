@@ -504,11 +504,11 @@ latestList.addEventListener('scroll',()=>{
 
 })
 
-var latestList = document.querySelector('.test-list');
+var latestList2 = document.querySelector('.test-list');
 
-latestList.addEventListener('scroll',()=>{
+latestList2.addEventListener('scroll',()=>{
    var child =  document.querySelectorAll('.career-pagi div')
-    var per =  latestList.scrollLeft/latestList.clientWidth*100
+    var per =  latestList2.scrollLeft/latestList2.clientWidth*100
 
     if(per<40){
         child[3].classList.add('active')
