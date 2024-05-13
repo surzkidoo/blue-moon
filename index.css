@@ -573,6 +573,60 @@ margin-top: 0px;
     align-self: center;
 }
 
+.faq-container{
+    padding: 40px 15px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+}
+
+.faq-list{
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+    transition: all 400ms ease-in-out;
+    width: 100%;
+}
+
+.faq-item{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+
+.faq-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.faq-item > p{
+    font-size: 13px;
+    color: #A6A6A6;
+    font-weight: 500;
+    display: none;
+}
+
+.faq-header p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+
+.faq-header svg{
+    flex-shrink: 0;
+    transition: all 400ms ease-in-out;
+}
+
 
 .test-container{
     padding: 40px 15px;
@@ -1132,8 +1186,8 @@ footer{
         font-family: 'krona one';
         font-weight: 400;
         text-align: left;
-    }
-    
+
+           }
     .hero-text p{
         font-size: 16px;
         color: #6F6F6F;
@@ -1563,6 +1617,52 @@ footer{
         align-self: flex-start;
     }
     
+    .faq-container{
+        padding: 40px 120px;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 84px;
+    }
+
+    .faq-list{
+        display: flex;
+        flex-direction: column;
+        gap: 66px;
+    }
+
+    .faq-item{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding-bottom: 25px;
+        border-bottom: 1px solid #EAEAEA;
+    }
+
+
+    .faq-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .faq-item > p{
+        font-size: 16px;
+        color: #A6A6A6;
+        font-weight: 500;
+    }
+
+    .faq-header p{
+        font-size: 20px;
+        font-weight: bold;
+        color: #000000;
+    }
+
+    .faq-header svg{
+        flex-shrink: 0;
+    }
     
     .test-container{
         padding: 40px 120px;
